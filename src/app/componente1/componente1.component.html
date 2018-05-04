@@ -1,0 +1,12 @@
+<p>
+  Componente importado :D!
+</p>
+
+<mat-chip-list class="mat-chip-list-stacked">
+  <div *ngFor="let op of opciones" selected="true">
+    <button style="margin: 5px" mat-raised-button color="{{op.color}}">
+      {{op.name}}
+    </button>
+  </div>
+
+</mat-chip-list>
